@@ -1,8 +1,6 @@
 package domain
 
 type Trabajador struct {
-	id                     string
-	nombre                 string
 	horasContratoSemanales int
 	habilidades            []Puesto
 	indisponibilidad       []FranjaHoraria
