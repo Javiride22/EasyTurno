@@ -1,15 +1,13 @@
 package domain
 
-// Trabajador es una Entidad que tiene identidad propia (ID)
 type Trabajador struct {
-	ID                     string
-	Nombre                 string
-	HorasContratoSemanales int
-	Habilidades            []Puesto
-	Indisponibilidad       []FranjaHoraria
+	id                     string
+	nombre                 string
+	horasContratoSemanales int
+	habilidades            []Puesto
+	indisponibilidad       []FranjaHoraria
 }
 
-// Puesto representa la habilidad requerida o que posee un trabajador (Objeto Valor)
 type Puesto string
 
 const (
