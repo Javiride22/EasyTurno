@@ -11,6 +11,6 @@ type Puesto string
 const (
 	PuestoCocinero   Puesto = "Cocinero"
 	PuestoRepartidor Puesto = "Repartidor"
-	PuestoCajero     Puesto = "Horno"
+	PuestoHorno      Puesto = "Horno"
 	PuestoTelefono   Puesto = "Telefono"
 )
