@@ -1,8 +1,8 @@
 package easyturno
 
 type CuadranteSemanal struct {
-	ID           string
-	Jornadas     []Jornada
-	Trabajadores []Trabajador
-	Asignaciones []AsignacionTurno
+	id           string
+	jornadas     []Jornada
+	trabajadores []Trabajador
+	asignaciones []AsignacionTurno
 }
