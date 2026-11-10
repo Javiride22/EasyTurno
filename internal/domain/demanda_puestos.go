@@ -1,6 +1,6 @@
 package domain
 
-type DemandaTurno struct {
+type DemandaPuestos struct {
 	franja            FranjaHoraria
 	puestosRequeridos map[Puesto]int
 }
