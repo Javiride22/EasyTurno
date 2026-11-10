@@ -10,6 +10,6 @@ type semana struct {
 type CuadranteSemanal struct {
 	semana       semana
 	jornadas     map[time.Weekday]Jornada
-	trabajadores map[nombre]Trabajador
+	trabajadores map[dni]Trabajador
 	asignaciones map[AsignacionTurno]struct{}
 }
