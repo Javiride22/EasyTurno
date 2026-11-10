@@ -3,8 +3,7 @@ package domain
 import "time"
 
 type Trabajador struct {
-	dni                    string
-	horasContratoSemanales int
-	habilidades            []Puesto
-	indisponibilidad       []time.Weekday
+	HorasContratoSemanales int
+	Habilidades            []Puesto
+	Indisponibilidad       []time.Weekday
 }
