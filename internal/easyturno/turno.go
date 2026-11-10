@@ -1,4 +1,4 @@
-package domain
+package easyturno
 
 type AsignacionTurno struct {
 	Trabajador Trabajador

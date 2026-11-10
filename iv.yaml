@@ -1,2 +1,2 @@
 lenguaje: go
-entidad: internal/domain/cuadrante.go
+entidad: internal/easyturno/cuadrante.go
