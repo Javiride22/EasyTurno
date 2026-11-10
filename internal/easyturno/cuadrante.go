@@ -1,5 +1,7 @@
 package easyturno
 
+import "time"
+
 type semana struct {
 	anio   int
 	numero int
@@ -7,7 +9,7 @@ type semana struct {
 
 type CuadranteSemanal struct {
 	semana       semana
-	jornadas     []Jornada
-	trabajadores []Trabajador
-	asignaciones []AsignacionTurno
+	jornadas     map[time.Weekday]Jornada
+	trabajadores map[nombre]Trabajador
+	asignaciones map[AsignacionTurno]struct{}
 }
