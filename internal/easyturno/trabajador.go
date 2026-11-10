@@ -3,8 +3,8 @@ package easyturno
 import "time"
 
 type Trabajador struct {
-	nombre                 string
+	dni                    int
 	horasContratoSemanales int
-	habilidades            []Puesto
-	indisponibilidad       []time.Weekday
+	habilidades            map[Puesto]bool
+	indisponibilidad       map[time.Weekday]bool
 }
