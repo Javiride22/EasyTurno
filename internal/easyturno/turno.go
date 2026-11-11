@@ -1,7 +1,9 @@
 package easyturno
 
+import "time"
+
 type AsignacionTurno struct {
-	trabajador Trabajador
+	trabajador string
 	puesto     Puesto
-	jornada    Jornada
+	dia        time.Weekday
 }
