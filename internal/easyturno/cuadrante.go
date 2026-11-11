@@ -7,11 +7,7 @@ type semana struct {
 	numero int
 }
 
-type demandaPuestos map[Puesto]int
-
 type CuadranteSemanal struct {
 	semana       semana
-	jornadas     map[time.Weekday]demandaPuestos
-	trabajadores map[string]Trabajador
-	asignaciones map[AsignacionTurno]struct{}
+	asignaciones map[time.Weekday][]AsignacionTurno
 }
